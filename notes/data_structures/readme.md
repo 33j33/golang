@@ -17,6 +17,12 @@ pointers, slices, maps, structs
 ![appending to slice](https://user-images.githubusercontent.com/63919345/140603845-74ca43cf-7852-4a34-921b-762beeebdb0e.png)
 ![range](https://user-images.githubusercontent.com/63919345/140604165-80b78852-b372-449d-b147-d253691d7e34.png)
 ![range continued](https://user-images.githubusercontent.com/63919345/140604588-a1e5d089-0a17-44f6-8b53-15fd7bf53f8a.png)
+![2d slices](https://user-images.githubusercontent.com/63919345/140609146-07122df1-469f-4147-b04f-50e66b9795e7.png)
+![maps](https://user-images.githubusercontent.com/63919345/140612814-e7f5c4ef-ce71-437d-9e07-a61825a60f2f.png)
+![map literals](https://user-images.githubusercontent.com/63919345/140612857-3089af99-8cb4-4eee-8959-1de7d0727f8e.png)
+![maps continued](https://user-images.githubusercontent.com/63919345/140612896-6952689a-dbfd-43fb-89ce-90bf9b9d2ddb.png)
+![mutating maps](https://user-images.githubusercontent.com/63919345/140612948-110d4dba-4819-447e-9691-0b5f78665192.png)
+![maps exercise](https://user-images.githubusercontent.com/63919345/140620318-d312a7e0-3af1-47b6-81d8-59ef19bea4c0.png)
 
 
 
