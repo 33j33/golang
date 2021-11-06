@@ -14,7 +14,8 @@ pointers, slices, maps, structs
 ![nil slice](https://user-images.githubusercontent.com/63919345/140559649-cc2ceef7-603f-4893-9bb6-f31f20747af3.png)
 ![using make](https://user-images.githubusercontent.com/63919345/140560900-123ea738-a5c2-4107-b316-c3362d6a1b16.png)
 ![slice of slices](https://user-images.githubusercontent.com/63919345/140561499-dd4ea2dd-481c-454e-9681-0d2ab6bb88d6.png)
-![image](https://user-images.githubusercontent.com/63919345/140571365-93ffd875-a46a-45fc-8607-bc5511870cf2.png)
+![appending to slice](https://user-images.githubusercontent.com/63919345/140603845-74ca43cf-7852-4a34-921b-762beeebdb0e.png)
+
 
 
 
