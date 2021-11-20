@@ -6,13 +6,16 @@
 
  ### Resources
  
- https://gophercises.com/ 
- 
  https://gobyexample.com/
  
  https://www.golangprograms.com/
  
  https://yourbasic.org/golang/
+ 
+ --
+ 
+ https://gophercises.com/     
+ https://www.calhoun.io/lets-learn-algorithms/
  
  ### Some Golang Gotchas
  
