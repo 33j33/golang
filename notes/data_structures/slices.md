@@ -3,6 +3,7 @@
 - https://yourbasic.org/golang/slices-explained/
 - https://yourbasic.org/golang/append-explained/
 - https://www.tugberkugurlu.com/archive/working-with-slices-in-go-golang-understanding-how-append-copy-and-slicing-syntax-work
+- https://github.com/golang/go/wiki/SliceTricks
 
 ### Random Slice facts
 
