@@ -6,11 +6,10 @@
 
  ### Resources
  
- https://gobyexample.com/
- 
- https://www.golangprograms.com/
- 
- https://yourbasic.org/golang/
+ https://gobyexample.com/  
+ https://www.golangprograms.com/   
+ https://yourbasic.org/golang/   
+ https://zetcode.com/all/#go   
  
  --
  
