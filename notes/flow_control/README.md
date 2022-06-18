@@ -1,3 +1,20 @@
+
+## Switch Case
+
+Switch cases evaluate cases from top to bottom, stopping when a case succeeds which is unlike Javascript, C where you need `break` statement.
+
+https://gobyexample.com/switch
+
+https://yourbasic.org/golang/switch-statement/
+
+
+## Loops
+
+https://yourbasic.org/golang/for-loop/
+
+https://yourbasic.org/golang/for-loop-range-array-slice-map-channel/
+
+
 ![Screenshot 2021-06-16 at 1 25 34 PM](https://user-images.githubusercontent.com/63919345/122264897-bb52b080-cef5-11eb-83ca-9bceddba4284.png)
 ![Screenshot 2021-06-16 at 1 26 47 PM](https://user-images.githubusercontent.com/63919345/122264913-be4da100-cef5-11eb-8857-bcf3b7bbb551.png)
 ![Screenshot 2021-06-16 at 1 37 41 PM](https://user-images.githubusercontent.com/63919345/122264922-c0affb00-cef5-11eb-93f6-16185ee52277.png)
