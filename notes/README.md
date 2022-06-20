@@ -10,7 +10,8 @@
  https://www.golangprograms.com/   
  https://yourbasic.org/golang/   
  https://zetcode.com/all/#go   
- 
+ https://docs.microsoft.com/en-us/learn/paths/go-first-steps/
+
  --
  
  https://gophercises.com/     
