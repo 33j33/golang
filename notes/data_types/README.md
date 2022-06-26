@@ -102,7 +102,8 @@ type StringArray [5]string
 type StringSlice []string
 ```
 ```golang
-It is also possible to define non-struct types which you can use as an alias for a built-in type declaration, and you can define receiver functions on them to extend them in the same way as struct types.
+/// It is also possible to define non-struct types which you can use as an alias for a built-in type declaration, 
+// and you can define receiver functions on them to extend them in the same way as struct types.
 
 type Name string
 func SayHello(n Name) {
@@ -112,7 +113,7 @@ n := Name("Fred")
 SayHello(n)
 // Output: Hello Fred
 
-You can also define non-struct types composed of arrays and maps.
+// You can also define non-struct types composed of arrays and maps.
 
 type Names []string
 func SayHello(n Names) {
