@@ -1,5 +1,6 @@
 
 - https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go
+- https://exercism.org/tracks/go/concepts/pointers
 - https://blog.logrocket.com/how-to-use-pointers-in-go/
 
 
@@ -23,7 +24,35 @@ fmt.Println("creature =", creature)
 // *pointer = shark
 // *pointer = jellyfish
 // creature = jellyfish
+
+
+type Person struct {
+    Name string
+    Age  int
+}
+
+var peter Person
+peter = Person{Name: "Peter", Age: 22}
+
+var p *Person
+p = &peter
+
+// We could have also created a new Person and immediately stored a pointer to it:
+var p *Person
+p = &Person{Name: "Peter", Age: 22}
+
+// When we have a pointer to a struct, we don't need to dereference the pointer before accessing one of the fields:
+
+var p *Person
+p = &Person{Name: "Peter", Age: 22}
+
+fmt.Println(p.Name) // Output: "Peter"
+                    // Go automatically dereferences 'p' to allow
+                    // access to the 'Name' field
+
 ```
+
+Slices and maps are already pointers. Slices and maps are special types because they already have pointers in their implementation. This means that more often than not, we don't need to create pointers for these types to share the memory address for their values.
 
 #### Function Pointer Receivers
 
