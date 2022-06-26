@@ -3,6 +3,8 @@
 
 [Data Types - Overview]https://docs.microsoft.com/en-us/learn/modules/go-variables-functions-packages/2-data-types
 
+https://go101.org/article/type-system-overview.html
+
 In Go, you have four categories of data types:
 
 - Basic types: numbers, strings, and booleans
@@ -78,6 +80,26 @@ func main() {
     s := strconv.Itoa(-42)
     fmt.Println(i, s) // -42 -42
 }
+```
+
+### Type Alias Declaration
+
+```golang
+// The following new defined and source types are all
+// basic types. The source types are all predeclared.
+type (
+	MyInt int
+	Age   int
+	Text  string
+)
+
+// The following new defined and source types are all
+// composite types. The source types are all unnamed.
+type IntPtr *int
+type Book struct{author, title string; pages int}
+type Convert func(in0 int, in1 bool)(out0 int, out1 string)
+type StringArray [5]string
+type StringSlice []string
 ```
 
 ### Strings
