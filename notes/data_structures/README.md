@@ -1,3 +1,5 @@
+https://go101.org/article/type-system-overview.html
+
 pointers, slices, maps, structs
 
 ![pointers](https://user-images.githubusercontent.com/63919345/140550493-7fe4d271-85c7-4f2b-9d14-0a7aec17b1e4.png)
