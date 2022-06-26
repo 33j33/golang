@@ -18,12 +18,20 @@ fmt.Println("*pointer =", *pointer)
 
 fmt.Println("creature =", creature)
 
+func resetCreature(c *string) {
+	c = "shark"
+}
+
+resetCreature(&creature);
+fmt.Println("After reset | creature =", creature)
+
 // Output
 // creature = shark
 // pointer = 0xc000010200
 // *pointer = shark
 // *pointer = jellyfish
 // creature = jellyfish
+// After reset | creature = shark
 
 
 type Person struct {
