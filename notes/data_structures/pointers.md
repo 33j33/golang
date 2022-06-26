@@ -1,4 +1,7 @@
 
+- https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go
+- https://blog.logrocket.com/how-to-use-pointers-in-go/
+
 
 ```golang
 var creature string = "shark"
