@@ -10,6 +10,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-variadic-functions-i
 
 ### Methods (Functions tied to a type)
 
+- https://docs.microsoft.com/en-us/learn/modules/go-methods-interfaces/1-methods
+- https://go.dev/tour/methods/1
+
 A method in Go is a special type of function with a simple difference: you have to include an extra parameter before the function name. This additional parameter is known as the *receiver*. Methods are useful when you want to group functions and tie them to a custom type. This approach in Go is similar to creating a class in other programming languages, because it allows you to implement certain features from the object-oriented programming (OOP) model, such as embedding, overloading, and encapsulation.
 
 A method with a receiver can only be defined the package whose type is defined in the same package as method.
