@@ -56,4 +56,14 @@ func main(){
  }
 ```
 
+Go interprets **`(&x).MethodName`** and **`(*x).MethodName`** as **`x.MethodName`** 
+
+![plain functions](https://user-images.githubusercontent.com/63919345/176523016-04e5d056-53a0-47c2-b6aa-8a05c0e727d5.png)
+![methods](https://user-images.githubusercontent.com/63919345/176520735-d659167b-5894-4ed7-a5cd-3b65c5b056c3.png)
+![methods for non struct type](https://user-images.githubusercontent.com/63919345/176521189-467821e8-ab7e-4674-96ca-ca9b76cad409.png)
+![pointer receivers](https://user-images.githubusercontent.com/63919345/176522100-5c9dfaa9-752a-40c9-960d-fc7912f3df7f.png)
+
+
+
+
 
