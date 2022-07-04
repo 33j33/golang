@@ -8,6 +8,25 @@ https://gobyexample.com/variadic-functions
 
 https://www.digitalocean.com/community/tutorials/how-to-use-variadic-functions-in-go
 
+### Anonymous Functions
+
+- https://golangdocs.com/anonymous-functions-in-golang
+
+```golang
+func() {
+ fmt.Println("I am in anonymous function")
+}()
+
+func(x int) {
+ fmt.Printf("%d is passed to this anonymous function\n", x)
+}(42)
+
+h := func(){
+ fmt.Println("Function assgined to variable")
+}
+h()
+```
+
 ### Methods (Functions tied to a type)
 
 - https://docs.microsoft.com/en-us/learn/modules/go-methods-interfaces/1-methods
