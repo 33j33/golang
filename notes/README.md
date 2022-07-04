@@ -18,6 +18,8 @@
  https://gophercises.com/     
  https://www.calhoun.io/lets-learn-algorithms/
  
+ [map, package, interface exercice] https://docs.microsoft.com/en-us/learn/modules/go-methods-interfaces/3-challenge
+ 
  ### Some Golang Gotchas
  
  - [Some Gotchas in Golang] https://www.golangprograms.com/go-programming-language.html
