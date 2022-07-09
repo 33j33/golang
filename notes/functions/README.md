@@ -119,7 +119,9 @@ There is one very special interface type in Go: the **empty** interface type tha
 
 ## Builtin Functions
 
-- func new(Type) *Type
+- https://pkg.go.dev/builtin
+
+- `func new(Type) *Type`
 
 ### `new`
 
