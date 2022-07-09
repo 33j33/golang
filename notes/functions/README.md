@@ -120,6 +120,7 @@ There is one very special interface type in Go: the **empty** interface type tha
 ## Builtin Functions
 
 - https://pkg.go.dev/builtin
+- https://dave.cheney.net/2014/08/17/go-has-both-make-and-new-functions-what-gives
 
 - `func new(Type) *Type`
 
