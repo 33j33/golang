@@ -31,7 +31,18 @@ float32 float64
 
 complex64 complex128
 ```
+### Variable Declaration and Initialisation
 
+```golong
+var x int
+fmt.Println(x) // 0
+x = 5 
+fmt.Println(x)
+var y int = 10
+fmt.Println(y) // 10
+z:= 20 
+fmt.Println(z) // 20
+```
 
 ### Default Values (or Zero values)
 
