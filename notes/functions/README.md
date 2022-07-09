@@ -1,4 +1,4 @@
-### Functions
+# Functions
 
 https://www.callicoder.com/golang-functions/ 
 
@@ -8,7 +8,7 @@ https://gobyexample.com/variadic-functions
 
 https://www.digitalocean.com/community/tutorials/how-to-use-variadic-functions-in-go
 
-### Anonymous Functions
+## Anonymous Functions
 
 - https://golangdocs.com/anonymous-functions-in-golang
 
@@ -27,7 +27,7 @@ h := func(){
 h()
 ```
 
-### Methods (Functions tied to a type)
+## Methods (Functions tied to a type)
 
 - https://docs.microsoft.com/en-us/learn/modules/go-methods-interfaces/1-methods
 - https://go.dev/tour/methods/1
@@ -83,10 +83,12 @@ Go interprets *`(&x).MethodName`* and *`(*x).MethodName`* as *`x.MethodName`*
 ![pointer receivers](https://user-images.githubusercontent.com/63919345/176522100-5c9dfaa9-752a-40c9-960d-fc7912f3df7f.png)
 
 
-### Interfaces
+## Interfaces
 
 - https://go.dev/tour/methods/9
 - https://gobyexample.com/interfaces
+- https://golangbot.com/interfaces-part-1/
+- https://golangbot.com/interfaces-part-2/
 
 An interface type is effectively a set of method signatures. Any type that defines those methods "implements" the interface implicitly. There is no implements keyword in Go. Here is what an interface definition might look like:
 
@@ -115,4 +117,12 @@ There is one very special interface type in Go: the **empty** interface type tha
 ![empty interface](https://user-images.githubusercontent.com/63919345/177054854-7d07d5f5-bbc1-44f7-b5f6-b63017ec29a1.png)
 
 
+## Builtin Functions
 
+- func new(Type) *Type
+
+### `new`
+
+*`func new(Type) *Type`*
+
+The new built-in function allocates memory. The first argument is a type, not a value, and the value returned is a pointer to a newly allocated zero value of that type. 
