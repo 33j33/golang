@@ -64,6 +64,11 @@ var defaultString string
 fmt.Println(defaultInt, defaultBool, defaultFloat32, defaultFloat64, defaultString) // 0 false 0 0 
 ```
 
+### Type Assertion
+
+![type assestion](https://user-images.githubusercontent.com/63919345/179368479-f43da135-76d8-4847-86af-9e823025bff6.png)
+
+
 ### Type Conversions 
 
 https://golangdocs.com/type-casting-in-golang
