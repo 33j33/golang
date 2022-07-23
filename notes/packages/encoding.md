@@ -4,7 +4,7 @@
  #### exercises
  
  1. Take input from user and convert to json.
-    ```
+    ```golang
       func createJsonFromUserInput() {
         var name string;
         var address string;
